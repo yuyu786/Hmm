@@ -123,7 +123,7 @@ def get_progress_bar_string(status):
 
 def get_readable_message():
     with download_dict_lock:
-        msg = f"<b>● Pᴏᴡᴇʀᴇᴅ Bʏ 𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭</b>\n\n"
+        msg = f"<b>● Pᴏᴡᴇʀᴇᴅ Bʏ ʙͥʀͭɪᷤᴅᷟɪͤ</b>\n\n"
         if STATUS_LIMIT is not None:
             tasks = len(download_dict)
             global pages
@@ -159,7 +159,7 @@ def get_readable_message():
             else:
                 msg += ''
             msg += f"\n<code>/{BotCommands.CancelMirror} {download.gid()}</code>"
-            msg += f"\n<b>⊱✤┅●( 𝐀ɴɢᴇʟ✘𝐎ᴘ 𝐋𝐨𝐋 )●┅✤⊰</b>"
+            msg += f"\n<b>⊱✤┅●( ʙͥʀͭɪᷤᴅᷟɪͤ )●┅✤⊰</b>"
             msg += "\n\n"
             if STATUS_LIMIT is not None and index == STATUS_LIMIT:
                 break
