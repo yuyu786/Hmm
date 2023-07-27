@@ -186,12 +186,12 @@ def get_readable_message():
                     up_speed += float(spd.split('K')[0]) * 1024
                 elif 'M' in spd:
                     up_speed += float(spd.split('M')[0]) * 1048576
-        bmsg = f"\n🌶 𝐀ɴɢᴇʟ✘𝐎ᴘ 𝐋𝐨𝐋 🌶"            
+        bmsg = f"\n🌶 ʙͥʀͭɪᷤᴅᷟɪͤ 🌶"            
         bmsg += f"\n<b>◉ Cᴘᴜ:</b> {cpu_percent()}% | <b>◉ Fʀᴇᴇ:</b> {get_readable_file_size(disk_usage(DOWNLOAD_DIR).free)}"
         bmsg += f"\n<b>◉ Rᴀᴍ:</b> {virtual_memory().percent}% | <b>◉ Uᴘᴛɪᴍᴇ:</b> {get_readable_time(time() - botStartTime)}"
         bmsg += f"\n<b>⇓ Dʟ:</b> {get_readable_file_size(dl_speed)}/s | <b>⇑ Uʟ:</b> {get_readable_file_size(up_speed)}/s"
         buttons = ButtonMaker()
-        buttons.sbutton("🦋 𝐀ɴɢᴇʟ✘𝐎ᴘ 𝐋𝐨𝐋 🦋", str(FOUR))
+        buttons.sbutton("🇲🇾 ʙͥʀͭɪᷤᴅᷟɪͤ 🇯🇵", str(FOUR))
         sbutton = buttons.build_menu(1)
         if STATUS_LIMIT is not None and tasks > STATUS_LIMIT:
             msg += f"<b>◉ Page:</b> {PAGE_NO}/{pages} | <b>◉ Tasks:</b> {tasks}\n"
@@ -347,7 +347,7 @@ DL ● {num_active} | UP ● {num_upload}
 SPLIT ● {num_split}
 ZIP ● {num_archi} | UNZIP ● {num_extract}
 TOTAL ● {tasks} 
-● Powered By ● ❤️ 𝐖𝐃 𝐙𝐎𝐍𝐄
+● Powered By ● ❤️ ʙͥʀͭɪᷤᴅᷟɪͤ
 """
     return stats
 dispatcher.add_handler(
