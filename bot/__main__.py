@@ -152,7 +152,7 @@ Hei, Need Help!!
 '''
 try:
     help = telegraph.create_page(
-        title='✤◄ Farooq ►✤ Help',
+        title='✤◄ ʙͥʀͭɪᷤᴅᷟɪͤ ►✤ Help',
         content=help_string_telegraph,
     )["path"]
 except Exception as err:
