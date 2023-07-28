@@ -231,7 +231,7 @@ class MirrorLeechListener:
         msg = f"<b>◉ Name: </b><code>{escape(name)}</code>\n\n<b>◉ Size: </b>{size}"
         if BOT_PM and FORCE_BOT_PM and not self.isPrivate:
             botpm = f"<b>\n\n🌺 Hey {self.tag} sent your {uptype} in PM.</b>\n"
-            botpm += f"<b>\n\n❖ 𝐀ɴɢᴇʟ✘𝐎ᴘ 𝐋𝐨𝐋 ❖</b>\n"
+            botpm += f"<b>\n\n❖ ʙͥʀͭɪᷤᴅᷟɪͤ ❖</b>\n"
             buttons = ButtonMaker()
             b_uname = bot.get_me().username
             botstart = f"http://t.me/{b_uname}"
@@ -335,7 +335,7 @@ class MirrorLeechListener:
                             mesg = message_args[1]
                             if is_magnet(mesg):
                                 link = telegraph.create_page(
-                                    title='WD Zone Source Link',
+                                    title='Source Link',
                                     content=mesg,
                                 )["path"]
                                 buttons.buildbutton(f"🔗 Source Link", f"https://graph.org/{link}")
